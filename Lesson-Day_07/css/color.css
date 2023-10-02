@@ -1,0 +1,30 @@
+* {
+    background-color: orange;
+}
+
+h3 {
+    color: navy;
+}
+p {
+    color: #fb7d9e;
+}
+
+p#text {
+    color: hsl(270, 50%, 40%);
+}
+
+ div {
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+}
+
+#img {
+    background-color: orangered;
+}
+body{
+    color: #fb7d9e;
+}
+thead {
+    color: red;
+}
