@@ -1,0 +1,16 @@
+ p{
+    a:link {
+        color: blue;
+        text-decoration: none;
+     }
+     a :visited {
+        color: black;
+     }
+     a :hover {
+        color: black;
+        text-decoration: underline;
+     }
+     a:active {
+        color: yellow;
+     }
+ }

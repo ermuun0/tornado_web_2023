@@ -1,0 +1,64 @@
+li {
+    font-weight: bold;
+}
+#tomuseg {
+    text-transform: uppercase;
+
+}
+#new {
+    text-decoration: line-through;
+}
+#get {
+    text-decoration: underline;
+}
+#result {
+    text-decoration: line-through;
+}
+#put {
+    text-decoration: underline;
+}
+#deep {
+    text-decoration: line-through;
+}
+link {
+    color: blue;
+}
+p {
+    text-transform: uppercase;
+}
+div {
+   border: 7px;
+    width: 70px;
+    border-radius: 20%;
+    height: 50px;
+    background-color: orange;
+}
+#text1:hover {
+    background-color: blue;
+    font-size: large;
+    border: 2px yellow dotted;
+}
+button{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:focus {
+    background-color: green;
+    color: black;
+    border: 7px;
+
+}
+#text2:hover{
+    color: brown;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px black;
+}
+#text3:active {
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px blue;
+}

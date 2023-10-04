@@ -1,0 +1,35 @@
+table {
+    width: 700px;
+}
+td,th {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+#table1 {
+    margin: 0 auto;
+    background-color: #FBFFDC;
+}
+td{
+    padding: auto;
+}
+th{
+    padding: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+thead th {
+    padding: 5px;
+    border-bottom: 2px solid;
+   color: #AAC8A7;
+   border-top: 1px solid;
+   color: #C3EDC0;
+}
+#name{
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid;
+    color: #C3EDC0;
+    text-align: left;
+}
