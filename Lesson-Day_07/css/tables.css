@@ -33,3 +33,64 @@ thead th {
     color: #C3EDC0;
     text-align: left;
 }
+#body th {
+    border-top: 1px solid #FFDEB4;
+    color: #F7C8E0;
+    border-bottom: 2px solid #F7C8E0;
+}
+#body td {
+    border-bottom: 1px solid #FFDEB4;
+}
+#even {
+    background-color: #F8E8EE,;
+}
+#odd {
+    background-color: red;
+}
+#color {
+    background-color: green
+    
+}
+#game {
+    background-color: rgb(207, 202, 202);
+    color: green;
+}
+.hi1 {
+    border: 1px solid #a9dd00;
+    padding: 1px ;
+    width: 100px;
+    height: 100px;
+}
+table.one {
+    background-color: darkcyan;
+    empty-cells: hide;
+    border: 1px;
+}
+table.two {
+    background-color: darkcyan;
+    empty-cells: hide;
+}
+table.three {
+    background-color: darkcyan;
+    empty-cells: hide;
+}
+.td1:hover{
+    border: 1px solid blue;
+    padding: 1px ;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+table.new1{
+    background-color: grey;
+}
+table.new2 {
+    background-color: grey;
+}
+table.new3 {
+    background-color: gray;
+}
+
+
+
+
