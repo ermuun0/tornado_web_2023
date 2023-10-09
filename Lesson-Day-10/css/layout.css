@@ -1,0 +1,43 @@
+.mouse {
+    position: absolute;
+    top: 30px;
+    left: 250px;
+  }
+.text{
+    position: relative;
+
+}
+
+.zurag{
+    position: absolute; 
+    background-color: yellow; 
+    width: 400px; 
+    height: 50px
+    
+}
+a:hover {
+    color: red;
+}
+header {
+    position: fixed;
+    top: 570px;
+    background-color: orange;
+    left: 250px;
+    width: 2000px;
+    height: 40px;
+}
+.text1{
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px; background-color: #efefef;
+    left: 250px;
+    }
+footer {
+    position: fixed;
+    background-color: orangered;
+    top: 680px;
+    left: 250px;
+    width: 2000px;
+    height: 40px;
+}
