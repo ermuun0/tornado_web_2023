@@ -1,0 +1,57 @@
+.page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+
+
+    margin-bottom: 0;
+    background-color: black;
+    background-size: 20px;
+    text-align: center;
+    padding: 25px 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(217, 213, 213);
+    padding: 20px 0;
+}
+
+.gallery img {
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.footer{
+    background-color: black;
+    height: 250px;
+   padding: 50px;
+
+    
+}
+
+#footer_title{
+    color: aliceblue;
+   text-align: center;
+   font-size: 30px;
+}
+
+#footer_links {
+    margin: 30px;
+    color: white;
+    text-align: center;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+}
