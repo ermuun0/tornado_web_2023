@@ -1,3 +1,17 @@
+#page{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+}
+
 #div2{
     text-align: center;
     background-color: rgb(61, 72, 88);
@@ -91,7 +105,7 @@ img.img1{
     text-align: center;
     margin-left: 8px;
 }
-#div14{
+#photos{
     display: flex;
     margin-top: 20px;
     position: relative;
@@ -99,7 +113,7 @@ img.img1{
 .img2{
     margin-left: 20px;
 }
-#p1{
+#{
     position: absolute;
     color: white;
     top: 270px;
@@ -111,7 +125,7 @@ img.img1{
     top: 270px;
     left: 535px;
 }
-#div15{
+#footer{
     background-color: rgb(32, 33, 36);
     color: white;
     width: 100%;
@@ -119,3 +133,4 @@ img.img1{
     text-align: center;
     padding-top: 50px;
 }
+
