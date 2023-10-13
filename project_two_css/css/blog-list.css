@@ -1,0 +1,12 @@
+.blog {
+    border: 1px;
+    background-color: rgb(52, 52, 71);
+    width: 1020px;
+    height: 120px;
+    text-align: center;
+}
+#blog-title {
+    text-align: center;
+    text-size-adjust: 20px;
+    color: aliceblue;
+}
