@@ -2,11 +2,13 @@
     border: 1px;
     background-color: rgb(52, 52, 71);
     width: 1020px;
-    height: 120px;
+    height: 200px;
     text-align: center;
 }
 #blog-title {
     text-align: center;
-    text-size-adjust: 20px;
     color: aliceblue;
+}
+#blog-text{
+    color: rgb(54, 54, 80);
 }
