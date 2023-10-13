@@ -1,6 +1,10 @@
+#page {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 .blog {
     border: 1px;
-    background-color: rgb(52, 52, 71);
+    background-color: rgb(59, 59, 79);
     width: 1020px;
     height: 200px;
     text-align: center;
@@ -10,5 +14,81 @@
     color: aliceblue;
 }
 #blog-text{
-    color: rgb(54, 54, 80);
+    color: rgb(105, 138, 214);
+}
+
+#title0{
+    text-transform: uppercase;
+    color: rgb(215, 230, 230);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header-right img{
+    padding: 0px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+
+#text0{
+    color: gray;
+}
+
+#text1 {
+    color: rgb(53, 53, 171);
+}
+
+#text2{
+    background-color: greenyellow;
+}
+
+#text3{
+    background-color: blue;
+}
+
+#title1{
+    text-transform: uppercase;
+    color: rgb(215, 230, 230);
+}
+
+#font0{
+    color: gray;
+}
+
+#font1 {
+    color: rgb(53, 53, 171);
+}
+
+#font2{
+    background-color: red;
+}
+
+.section-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-body-right img{
+    padding: 0px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+
+#photo0{
+    color: gray;
+}
+
+#photo1 {
+    color: rgb(53, 53, 171);
+}
+
+#photo2{
+    background-color: rgb(71, 71, 71);
 }
