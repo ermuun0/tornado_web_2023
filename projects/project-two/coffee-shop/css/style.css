@@ -1,0 +1,80 @@
+.page {
+    max-width: 1790px;
+    margin: 0 auto;
+}
+.page-title {
+    border: 1px;
+    background-color: #603601;
+    width: 1790px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 89.5px;
+    box-sizing: border-box;
+}
+header {
+    background-image: url("../img/backround-cup.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 1790px;
+}
+
+#ayga{
+    width: 20px;
+    height: 20px;
+}
+h3 {
+    top: 50px;
+    left: 100px;
+    color: azure;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+#header-middle {
+    color: azure;
+    top: 10px;
+}
+nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+#men , #shop{
+    height: 18px;
+    width: 16px;
+    margin-top: 10px;
+}
+#page-text {
+    color: azure;
+    text-align: center;
+    margin-top: 90px;
+}
+#page-text-1 {
+    color: azure;
+    text-align: center;
+}
+.span-text{
+    color: azure;
+    background-color: burlywood;
+    margin-left: 770px;
+    padding: 12px 20px;
+}
+.span-text1 {
+    color: azure;
+    background-color: #C69B7B;
+    margin-left: 920px;
+    padding: 12px 20px;
+    text-align: center;
+}

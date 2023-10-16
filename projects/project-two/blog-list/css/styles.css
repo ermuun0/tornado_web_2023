@@ -92,3 +92,31 @@ height: 40px;
 #photo2{
     background-color: rgb(71, 71, 71);
 }
+#car1 {
+    height: 400px;
+    width: 500px;
+}
+#car2 {
+    height: 400px;
+    width: 500px;
+}
+#endtitle {
+    text-align: center;
+    color: white;
+   background-color: rgb(55, 55, 55); 
+   height: 100px;
+   padding: 50px;
+   width: 920px;
+}
+#cars {
+    display: flex;
+}
+.car1 , .car2{
+    position: relative;
+}
+#cars p {
+    position: absolute;
+    top: 350px;
+    color: azure;
+    left: 50px;
+}
