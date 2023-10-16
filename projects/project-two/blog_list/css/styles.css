@@ -12,24 +12,21 @@
     display: flex;
 }
 
-#div2{
+#header{
     text-align: center;
     background-color: rgb(61, 72, 88);
         color: white;
 
 }
-#p3{
+#header-text{
     color: rgb(61, 125, 160);
 }
-#div1{
-    width: 1000px;
-}
-.span1{
+.header-blog{
     font-size: small;
     font-weight: lighter;
     padding-left: 20px;
 }
-.span2{
+.pinned{
     font-size: small;
     color: rgb(209, 210, 214);
     text-transform: uppercase
@@ -113,13 +110,13 @@ img.img1{
 .img2{
     margin-left: 20px;
 }
-#{
+#photo1{
     position: absolute;
     color: white;
     top: 270px;
     left: 15px;
 }
-#p2{
+#photo2{
     position: absolute;
     color: white;
     top: 270px;
@@ -133,4 +130,3 @@ img.img1{
     text-align: center;
     padding-top: 50px;
 }
-
