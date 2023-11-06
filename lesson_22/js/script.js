@@ -1,0 +1,16 @@
+console.log('Lesson 22');
+var header = document.createElement('header');
+document.body.appendChild(header);
+var h1Tag = document.createElement('h1');
+h1Tag.innerHTML= 'Welcome to my Website';
+header.appendChild(h1Tag);
+var main = document.createElement('main');
+document.body.appendChild(main);
+var pTag = document.createElement('p');
+pTag.innerHTML = 'THis is small website created using HTML and JavaScript';
+main.appendChild(pTag);
+var footer = document.createElement('footer');
+document.body.appendChild(footer);
+var para = document.createElement('p');
+para.innerHTML = '&copy; Ermuun';
+footer.appendChild(para);
