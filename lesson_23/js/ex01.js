@@ -1,0 +1,11 @@
+console.log('Day 23');
+var container = document.getElementById('container');
+var div1 = document.createElement('div');
+div1.innerHTML = 'Element 1';
+container.appendChild(div1);
+div1.setAttribute('style', 'background-color:yellow');
+var div2 = document.createElement('div');
+div2.innerHTML = 'Element 2';
+container.appendChild(div2);
+div2.setAttribute('style', 'background-color:orange');
+container.setAttribute('style', 'color:blue');
