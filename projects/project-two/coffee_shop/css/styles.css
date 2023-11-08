@@ -1,0 +1,135 @@
+#page {
+    max-width: 1790px;
+    margin: 0 auto;
+    background-color:rgb(240, 244, 245)
+}
+h1{
+    font-size: 40px;
+}
+#header {
+    width: 1790px;
+    height: 496px;
+    background-image: url("../img/background-page.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#header-top {
+    background-color: #603601;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 89.5px;
+    padding-right: 89.5px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-text {
+    color: white;
+    position: absolute;
+    width: 635px;
+    top: 168px;
+    left: 750px;
+}
+
+#buttons {
+    display: flex;
+    gap: 5px;
+    padding-left: 80px
+}
+
+#button1 {
+    width: 112px;
+    height: 21px;
+    text-align: center;
+    background-color: #C69B7B;
+
+}
+
+.button2 {
+    background-color: #603601;
+    width: 152px;
+    height: 21px;
+    text-align: center;
+    color: white;
+}
+
+#p1 {
+    padding-left: 70px
+}
+
+#about-us {
+    padding-left: 89px;
+    width: 1611px;
+}
+
+.section-header {
+    text-align: center;
+}
+.hrs{
+    position: relative;
+    width: 100px;
+    height: 1px;
+    margin: 0 auto;
+}
+.hr1 {
+    width: 100px;
+    height: 1px;
+    background-color: #603601;
+}
+
+.hr2 {
+    width: 28px;
+    height: 5px;
+    background-color: #603601;
+    position: absolute;
+    left: 35px;
+    top: -10px;
+}
+.section-body{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+#p3{
+    font-weight: bold;
+}
+.p2{
+    color: #666;;
+}
+#section-body-left{
+    margin-top: 68.42px;
+}
+#service-body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+    margin-left: 89px;
+}
+.services-list-text{
+    background-color: white;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.services-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

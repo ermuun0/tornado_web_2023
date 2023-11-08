@@ -1,0 +1,27 @@
+table{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(198, 176, 180);
+    border-collapse: collapse ;
+}
+td, th{
+border: 1px solid grey;
+}
+img{
+    
+   border-radius: 50%;
+   height: 100px;
+   width: 100px;
+}
+h1{
+    text-align: left;
+    font-family: serif;
+    font-weight: lighter;
+
+
+}
+h3{
+    text-align: left;
+    font-family: monospace;
+    font-weight: lighter;
+}

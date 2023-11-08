@@ -1,0 +1,92 @@
+table {
+    width: 700;
+}
+
+td,
+th {
+    padding: 7px 7px 10px 10px;
+}
+
+#tab {
+    margin: 0 auto;
+
+
+}
+
+.th2 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-bottom: 2px solid #F7C8E0;
+    border-top: 1px solid #FFDEB4;
+}
+
+#tab1 {
+    margin: 0 auto;
+}
+
+.th {
+    border-bottom: 2px solid #AAC8A7;
+    border-top: 1px solid #C3EDC0;
+}
+
+.name {
+    text-align: left;
+}
+
+.td {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-top: 1px solid #C3EDC0;
+}
+
+.odd {
+    background-color: #FAF3F0;
+}
+
+.even {
+    background-color: #F8E8EE;
+}
+
+td {
+    border-bottom: 1px solid #FFDEB4;
+}
+
+#tr1 {
+    background-color: rgb(65, 179, 137);
+}
+
+.th10 {
+    color: white;
+}
+
+#tr2 {
+    background-color: rgb(224, 225, 226);
+    color: rgb(65, 179, 137);
+}
+
+#tab2 {
+    border-spacing: 0;
+}
+.td5{
+    border: 1px solid #dd002c;
+    padding: 15px;
+    width: 25;
+    
+    background-color: aqua;
+}
+.td5:hover{
+    background-color: brown;
+}
+.class81{
+    width: 100px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #F31559;
+    border-radius: 10px;
+    border-spacing: 15px;
+}
+table.second{
+    border-collapse: collapse;
+}
