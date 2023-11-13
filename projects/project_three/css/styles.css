@@ -429,10 +429,8 @@ height: 20px;
     display: flex;
     flex-direction: column;
 }
-#ul{
+#ul-container{
     flex-wrap: wrap;
-    width: 409px;
-    height: 19px;
 }
 #ul ul{
 list-style-image:url("img/list.png");
