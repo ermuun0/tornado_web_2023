@@ -27,7 +27,19 @@
                             </nav>
                         </div>
                         <div id="header-right">
-                            <img src="img/profileIcon.png" alt="">
+                            <img src="img/profileIcon.png" alt="" onclick="openForm()" id="openBtn">
+                            <div class="popup-form" id="myForm">
+                                <form action="#" class="form-container">
+                                <h2>Popup Form</h2>
+                                <label for="name" class="popLabel"><b>Name</b></label>
+                                <input type="text" placeholder="Enter your name" name="name" required>
+                        
+                                <label for="email" class="popLabel">Email</label>
+                                <input type="email" placeholder="Enter your email" name="email" required>
+                                <button class="submit-btn" type="submit">Submit</button>
+                                <button class="close-btn" type="button" onclick="closeForm()">close</button> 
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <div id="headerText">
@@ -53,6 +65,9 @@
         </header>
         <main>
             <img src="img/uglyGUyy.jpeg" alt="">
+            <div id="rect"></div>
+            <div class="arrow" id="arrow1"><img src="img/arrowBack.png" alt=""></div>
+            <div class="arrow" id="arrow2"><img src="img/arrowNext.png" alt=""></div>
             <div id="section">
                 <div class="sectionHeader">
                     <h1>
@@ -372,17 +387,21 @@
                             Quick links
                         </h1>
                         <div id="ul-container">
+                           <div width="">
                             <ul>
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Team</li>
-                                <li>Service</li>
+                                <li><p>Home</p></li>
+                                <li><p>About</p></li>
+                                <li><p>Team</p></li>
+                                <li><p>Service</p></li>
                             </ul>
+                           </div>
+                           <div>
                             <ul>
-                                <li>A-Page</li>
-                                <li>S-Page</li>
-                                <li>C-Page</li>
+                                <li><p>A-Page</p></li>
+                                <li><p>B-Page</p></li>
+                                <li><p>C-Page</p></li>
                             </ul>
+                           </div>
                         </div>
                     </div>
                     <div id="info">
@@ -398,6 +417,7 @@
             </div>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
