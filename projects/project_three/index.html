@@ -28,18 +28,7 @@
                         </div>
                         <div id="header-right">
                             <img src="img/profileIcon.png" alt="" onclick="openForm()" id="openBtn">
-                            <div class="popup-form" id="myForm">
-                                <form action="#" class="form-container">
-                                <h2>Popup Form</h2>
-                                <label for="name" class="popLabel"><b>Name</b></label>
-                                <input type="text" placeholder="Enter your name" name="name" required>
-                        
-                                <label for="email" class="popLabel">Email</label>
-                                <input type="email" placeholder="Enter your email" name="email" required>
-                                <button class="submit-btn" type="submit">Submit</button>
-                                <button class="close-btn" type="button" onclick="closeForm()">close</button> 
-                                </form>
-                            </div>
+                            
                         </div>
                     </div>
                     <div id="headerText">
@@ -63,11 +52,36 @@
                 </div>
             </div>
         </header>
+        <div class="popup-form" id="myForm">
+            <div id="sign-up">
+                <h2>Sign Up</h2>
+                <button type="button" class="close-btn" onclick="closeForm()"><h2>X</h2></button>
+            </div>
+            <form action="#" class="form-container">
+                <p>Register with us to get offers, supporrts and more</p>
+            <label for="name" class="popLabel"><b>Name</b></label>
+            <input type="text" placeholder="Enter name" name="name" required>
+    
+            <label for="email" class="popLabel">Email</label>
+            <input type="email" placeholder="Enter email" name="email" required>
+            <label for="password" class="popLabel">Password</label>
+            <input type="password" placeholder="Enter password" name="email" required>
+            <label for="password" class="popLabel">Confirm password</label>
+            <input type="password" placeholder="Enter password" name="email" required>
+            <button class="submit-btn" type="submit">Submit</button>
+            </form>
+        </div>
         <main>
-            <img src="img/uglyGUyy.jpeg" alt="">
-            <div id="rect"></div>
-            <div class="arrow" id="arrow1"><img src="img/arrowBack.png" alt=""></div>
-            <div class="arrow" id="arrow2"><img src="img/arrowNext.png" alt=""></div>
+            <div id="slider-container">
+                <div id="slider">
+                    <img src="img/uglyGUyy.jpeg" alt="" class="slide" id="slide1">
+                <img src="img/lake.jpeg" alt="" class="slide" id="slide2">
+                <img src="img/mountain.jpeg" alt="" class="slide" id="slide3">
+                </div>
+                <div id="rect"></div>
+            <div class="arrow" id="arrow1" onclick="prevSlide()"><img src="img/arrowBack.png" alt=""></div>
+            <div class="arrow" id="arrow2" onclick="nextSlide()"><img src="img/arrowNext.png" alt=""></div>
+            </div>
             <div id="section">
                 <div class="sectionHeader">
                     <h1>
